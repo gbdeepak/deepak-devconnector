@@ -11,7 +11,7 @@ const {
 const router = express.Router();
 
 // @route   GET api/auth
-// @desc    Test route
+// @desc    Authorize the user
 // @access  Public
 router.get("/", auth, async (req, res) => {
   try {
